@@ -62,6 +62,7 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
     src="https://skillicons.dev/icons?i=github"
 />
 <br><br>
+
 ---
 
 ### 🧩 Componentes do Sistema:
@@ -80,6 +81,7 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
 - Executa tarefas simuladas (cpu-bound / sleep)
 - Envia ao orquestrador os resultados e libera capacidade
 <br>
+
 ---
 
 ### 📌 Políticas de Escalonamento Suportadas
@@ -89,11 +91,10 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
 | **Shortest Job First (SJF)** | Execução pela menor estimativa de tempo |
 | **Prioridade** | Baseado em urgência (1 = alta) |
 <br>
+
 ---
 
 ### 📥 Entrada de Dados
-
-Arquivo típico entrada.json:
 
 ```
 {
