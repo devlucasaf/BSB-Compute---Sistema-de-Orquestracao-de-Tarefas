@@ -13,7 +13,7 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
 - **👤💻 [devlucasaf (Lucas Freitas)](https://github.com/devlucasaf)**
 - **👤💻 [okiobot (Mateus Rodrigues)](https://github.com/okiobot)**
 - **👤💻 [corvinyy (Lorena Araujo)](https://github.com/corvinyy)**
-- **👤💻 [Cleitindograu420 (Ricardo Ribeiro)](https://github.com/Cleitindograu420)**
+- **👤💻 [Devrichas (Ricardo Ribeiro)](https://github.com/Devrichas)**
 
 `projeto desenvolvido para a disciplina de Sistemas Operacionais da UniCEUB`
 
@@ -32,7 +32,12 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
 
 ### 📁 Estrutura do projeto
 
-```(em andamento)```
+``` bash
+BSB-Compute---Sistema-de-Orquestracao-de-Tarefas/
+├── main.py  
+├── projeto_pratico-2025.2.pdf
+└── README.md
+```
 
 ---
 
@@ -117,15 +122,39 @@ O objetivo é reproduzir o cenário de empresas de IA em nuvem, lidando com múl
 
 ### 🚀 Como Rodar o Projeto Localmente
 
-```🔧 Requisitos```
 
-- Python 3.10+
+`1. Instalar Python 3.10+`
 
-<br>
+`2. Clone o repositório`
+```bash
+git clone https://github.com/devlucasaf/BSB-Compute---Sistema-de-Orquestracao-de-Tarefas.git
+```
 
-```▶️ Execução```
+`3. Entre no projeto`
+```bash
+cd BSB-Compute---Sistema-de-Orquestracao-de-Tarefas
+```
 
-```(em andamento)```
+`4. Instale o pacote psutil`
+```bash
+pip install psutil
+```
+
+`5. Abra o arquivo main.py, no final você verá essas 3 linhas:`
+```bash
+# main_simulation_loop(politica='RR')
+# main_simulation_loop(politica='SJF')
+# main_simulation_loop(politica='PRIORIDADE')
+```
+
+`6. Escolha o escalonamento que deseja testar, basta descomentar (tirar o #), por exemplo:`
+```bash
+main_simulation_loop(politica='RR')
+# main_simulation_loop(politica='SJF')
+# main_simulation_loop(politica='PRIORIDADE')
+```
+
+`7. Rode o código`
 
 ---
 
